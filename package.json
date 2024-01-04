@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@ant-design/plots": "^2.1.5",
     "@unocss/transformer-directives": "^0.58.3",
     "@unocss/vite": "^0.58.3",
     "@vitejs/plugin-react-swc": "^3.5.0",
