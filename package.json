@@ -29,10 +29,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +49,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@unocss/transformer-directives": "^0.58.3",
+    "@unocss/vite": "^0.58.3",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "unocss": "^0.58.3",
+    "vite": "^5.0.10"
   }
 }
